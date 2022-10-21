@@ -134,107 +134,144 @@ int choice = 0;
     Chronology.Item2 = Seconds;
     return Chronology;
 }
-int x = 0;
-while (x < 1)
+int Exit = 0;
+HoursToSeconds();
+while (Exit < 1)
 {
-    Console.WriteLine("please pick a conversion by selecting its coresponding number. \n 1: CelsiusToFahrenheit \n 2: CelsiusToKelvin \n 3: FahrenheitToCelsius \n 4: FarenheitToKelvin \n 5: KelvinToFahrenheit \n 6: KelvinToCelsius");
+    Console.WriteLine(" please pick a conversion by selecting its coresponding number. \n 1: CelsiusToFahrenheit \n 2: CelsiusToKelvin \n 3: FahrenheitToCelsius \n 4: FarenheitToKelvin \n 5: KelvinToFahrenheit \n 6: KelvinToCelsius");
     Console.WriteLine(" 7: InchsToFeet \n 8: InchsToYards \n 9: FeetToInchs \n 10: FeetToYards \n 11: YardsToFeet \n 12: YardToInchs ");
-    Console.WriteLine(" 13: SecondsToMinutes \n 14: SecondsToHours \n 15: MinutesToSeconds \n 16: MinutesToHours \n 17: HoursToMinutes \n 18: HoursToSeconds \n 19: Exit");
+    Console.WriteLine(" 13: SecondsToMinutes \n 14: SecondsToHours \n 15: MinutesToSeconds \n 16: MinutesToHours \n 17: HoursToMinutes \n 18: HoursToSeconds \n oExit");
     choice = int.Parse(Console.ReadLine());
     switch (choice)
     {
         case 1:
             Console.WriteLine("Please choose a how much to convert");
             Celsius = int.Parse(Console.ReadLine());
-            CelsiusToFahrenheit();
+           Console.WriteLine(CelsiusToFahrenheit());
+           Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 2:
             Console.WriteLine("Please choose a how much to convert");
             Celsius = int.Parse(Console.ReadLine());
-            CelsiusToKelvin();
+            Console.WriteLine(CelsiusToKelvin());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 3:
             Console.WriteLine("Please choose a how much to convert");
             Fahrenheit = int.Parse(Console.ReadLine());
-            FahrenheitToCelsius();
+            Console.WriteLine(FahrenheitToCelsius());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 4:
             Console.WriteLine("Please choose a how much to convert");
             Fahrenheit = int.Parse(Console.ReadLine());
-            FahrenheitToKelvin();
+            Console.WriteLine(FahrenheitToKelvin());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 5:
             Console.WriteLine("Please choose a how much to convert");
             Kelvin = int.Parse(Console.ReadLine());
-            KelvinToFahrenheit();
+            Console.WriteLine(KelvinToFahrenheit());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 6:
             Console.WriteLine("Please choose a how much to convert");
             Kelvin = int.Parse(Console.ReadLine());
-            KelvinToCelsius();
+           Console.WriteLine( KelvinToCelsius());
+           Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 7:
             Console.WriteLine("Please choose a how much to convert");
             Inches = int.Parse(Console.ReadLine());
-            InchsToFeet();
+            Console.WriteLine(InchsToFeet());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 8:
             Console.WriteLine("Please choose a how much to convert");
             Inches = int.Parse(Console.ReadLine());
-            InchsToYards();
+            Console.WriteLine(InchsToYards());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 9:
             Console.WriteLine("Please choose a how much to convert");
             Feet = int.Parse(Console.ReadLine());
-            FeetToInchs();
+            Console.WriteLine(FeetToInchs());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 10:
             Console.WriteLine("Please choose a how much to convert");
             Feet = int.Parse(Console.ReadLine());
-            FeetToYards();
+            Console.WriteLine(FeetToYards());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 11:
             Console.WriteLine("Please choose a how much to convert");
             Yards = int.Parse(Console.ReadLine());
-            YardsToFeet();
+            Console.WriteLine(YardsToFeet());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 12:
             Console.WriteLine("Please choose a how much to convert");
             Yards = int.Parse(Console.ReadLine());
-            YardToInchs();
+            Console.WriteLine(YardToInchs());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 13:
             Console.WriteLine("Please choose a how much to convert");
             Seconds = int.Parse(Console.ReadLine());
-            SecondsToMinutes();
+            Console.WriteLine(SecondsToMinutes());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 14:
             Console.WriteLine("Please choose a how much to convert");
             Seconds = int.Parse(Console.ReadLine());
-            SecondsToHours();
+            Console.WriteLine(SecondsToHours());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 15:
             Console.WriteLine("Please choose a how much to convert");
             Minutes = int.Parse(Console.ReadLine());
-            MinutesToSeconds();
+            Console.WriteLine(MinutesToSeconds());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 16:
             Console.WriteLine("Please choose a how much to convert");
             Minutes = int.Parse(Console.ReadLine());
-            MinutesToHours();
+            Console.WriteLine(MinutesToHours());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 17:
             Console.WriteLine("Please choose a how much to convert");
             Hours = int.Parse(Console.ReadLine());
-            HoursToMinutes();
+            Console.WriteLine(HoursToMinutes());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 18:
             Console.WriteLine("Please choose a how much to convert");
             Hours = int.Parse(Console.ReadLine());
-            HoursToSeconds();
+            Console.WriteLine(HoursToSeconds());
+            Console.WriteLine("Please press enter to try another option");
+           Console.ReadKey();
             break;
         case 19:
-        x++;
+        Exit++;
         break;
     }
 }
